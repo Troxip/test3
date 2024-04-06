@@ -14,7 +14,7 @@ export default function FetchMblast({ setGreedy }) {
   useEffect(() => {
     async function fetchData() {
       const limit = 25;
-      const offsets = Array.from({ length: 200 }, (_, index) => index * limit); // Generate offsets from 0 to 2000
+      const offsets = Array.from({ length: 20 }, (_, index) => index * limit); // Generate offsets from 0 to 2000
 
       try {
         const responses = await Promise.all(
