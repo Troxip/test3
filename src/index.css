@@ -47,6 +47,10 @@ h1 {
   transition: border-color 0.25s;
 }
 
+.shipnumber {
+  margin-top: -20px;
+}
+
 .stopButton {
   border-radius: 8px;
   border: 1px solid transparent;

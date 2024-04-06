@@ -63,7 +63,7 @@ export default function FetchMblast({ setGreedy }) {
 
   return (
     <div className="total">
-      <input
+      {/* <input
         type="text"
         value={usernameInput}
         onChange={handleInputChange}
@@ -80,7 +80,7 @@ export default function FetchMblast({ setGreedy }) {
           gr33dyBalance &&
           ((gr33dyBalance / totalBalance) * 100).toFixed(2)}
         % owned by {usernameInput && `${usernameInput}`}
-      </p>
+      </p> */}
     </div>
   );
 }
